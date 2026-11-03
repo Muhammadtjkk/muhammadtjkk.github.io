@@ -2,181 +2,300 @@ export const portfolio = {
   name: "Muhammad Tajak",
   title: "Senior Cyber Risk Analyst",
   location: "Charlotte, North Carolina",
+
   github: "https://github.com/Muhammadtjkk",
   linkedin: "https://www.linkedin.com/in/muhammad-tajak-a14047263/",
   professionalEmail: "",
+
   showApprovedEmployer: false,
   employerName: "Compass Group North America",
+
   primaryMessage:
-    "I help organizations make better technology and security decisions by connecting cyber risk, governance, third-party oversight, data analytics, and responsible automation.",
+    "I help organizations strengthen cyber risk governance by connecting reliable risk information, third-party oversight, audit-ready evidence, GRC platform enablement, and responsible automation.",
+
+  positioningStatement:
+    "I design and enable governance systems that connect risk information, evidence, ownership, technology platforms, human judgment, and responsible automation. The result is clearer accountability, more consistent execution, stronger traceability, and better-informed leadership decisions.",
+
   heroTagline:
-    "Turning cyber risk, governance, data, and automation into defensible business decisions.",
+    "Building governance systems that turn risk information into traceable, scalable, and defensible action.",
+
   heroSupport:
-    "Senior Cyber Risk Analyst specializing in third-party risk, GRC platforms, AI-enabled automation, risk analytics, audit readiness, and leadership reporting.",
+    "Senior Cyber Risk Analyst specializing in third-party risk management, GRC platform enablement, governance automation, control assurance, risk analytics, audit readiness, and leadership reporting.",
+
   heroDescription:
-    "I work across third-party risk, GRC platforms, audit readiness, AI-enabled automation, risk analytics, and executive reporting. My focus is turning complex control, security, and operational information into clear actions that leaders can understand and defend.",
+    "I work at the intersection of cyber risk, governance, technology platforms, analytics, and automation. My focus is building practical operating models that improve how risk is assessed, how evidence is governed, how decisions are documented, and how leadership receives dependable information. I combine structured governance with responsible automation so organizations can scale risk operations without losing human judgment, accountability, or traceability.",
+
   credibility: [
-    "Cyber Risk",
-    "Third-Party Risk",
-    "GRC Platforms",
-    "Responsible AI",
-    "Risk Analytics",
+    "Cyber Risk Governance",
+    "Third-Party Oversight",
+    "GRC Platform Enablement",
+    "Responsible Automation",
+    "Risk Intelligence",
     "Audit Readiness",
   ],
+
   about: [
-    "I am a Senior Cyber Risk Analyst focused on making technology risk understandable, measurable, and actionable. My experience covers third-party risk assessments, security assurance, GRC platform administration, cyber due diligence, audit readiness, executive dashboards, security awareness, and AI-enabled workflow improvement.",
-    "I am most effective when a problem crosses multiple areas. I can evaluate the risk, understand the process, organize the evidence, improve the workflow, and translate the result into language leadership can use.",
-    "My approach combines strong governance with practical delivery. Automation should reduce unnecessary work without removing accountability. Dashboards should support decisions rather than simply display data. Standards, procedures, service expectations, analyst instructions, and audit evidence should reinforce one another.",
+    "I am a Senior Cyber Risk Analyst focused on building governance capabilities that make technology risk understandable, measurable, traceable, and actionable. My experience spans third-party risk management, cyber due diligence, GRC platform administration, audit and compliance support, control mapping, evidence governance, executive reporting, and AI-enabled workflow improvement.",
+
+    "My work is centered on converting fragmented requests, controls, evidence, risk signals, and stakeholder requirements into structured operating processes. This includes defining ownership, establishing review stages, improving information quality, documenting decisions, standardizing outputs, implementing platform workflows, and creating reporting that explains both the current position and the action required.",
+
+    "I approach automation as a governance capability rather than simply a technology feature. A useful automation should reduce unnecessary effort, improve consistency, preserve source information, require human validation where judgment is necessary, and generate evidence that can be reviewed later. Efficiency is valuable, but defensibility and accountability must remain intact.",
+
+    "I also focus on the relationship between governance documents, operational procedures, platform configuration, analyst guidance, service expectations, and audit evidence. These elements should function as one coordinated system. When disconnected, teams experience duplicated work, unclear ownership, inconsistent decisions, and evidence gaps. When aligned, risk operations become easier to execute, measure, maintain, and defend.",
+
+    "My goal is to help leadership move from isolated risk data to decision-ready risk intelligence. That means making definitions, assumptions, limitations, evidence, ownership, trends, and required actions visible alongside the result.",
   ],
+
   bring: [
     {
-      title: "Risk Judgment",
-      description: "Translate technical evidence into clear business-risk decisions.",
+      title: "Governance Architecture",
+      description:
+        "Design connected operating models that align standards, procedures, service expectations, workflows, responsibilities, systems, decisions, and evidence.",
     },
     {
-      title: "Governance Design",
-      description: "Connect standards, procedures, workflows, ownership, and evidence.",
+      title: "Risk Intelligence",
+      description:
+        "Transform technical findings, control information, and operational data into normalized, comparable, and leadership-ready risk signals.",
     },
     {
       title: "Responsible Automation",
-      description: "Reduce manual work while retaining human validation and accountability.",
+      description:
+        "Use AI, workflow automation, and platform configuration to reduce manual work while preserving human validation, accountability, and auditability.",
+    },
+    {
+      title: "Platform Enablement",
+      description:
+        "Translate governance requirements into practical GRC applications, workflows, dashboards, surveys, access models, calculations, notifications, and reports.",
+    },
+    {
+      title: "Evidence Discipline",
+      description:
+        "Create repeatable methods for collecting, validating, classifying, retaining, and connecting evidence to requirements and decisions.",
     },
     {
       title: "Executive Communication",
-      description: "Convert complex risk information into concise leadership-ready language.",
+      description:
+        "Explain the business problem, risk implications, evidence, uncertainty, decision required, ownership, and next actions in concise leadership language.",
     },
   ],
+
   principles: [
-    "Evidence before assumptions",
-    "Clear ownership",
-    "Human validation",
-    "Defensible decisions",
-    "Practical governance",
-    "Continuous improvement",
+    "Governance should improve decisions, not create unnecessary complexity",
+    "Risk information should be comparable before it is summarized",
+    "Evidence should remain connected to the decision it supports",
+    "Automation should recommend and organize, not replace accountable judgment",
+    "Human validation should be explicit where interpretation is required",
+    "Ownership, escalation, and decision rights should be visible",
+    "Platform configuration should reflect approved operating processes",
+    "Metrics should explain business value, not only activity volume",
+    "Documentation should enable continuity beyond one individual",
+    "Limitations and uncertainty should be communicated directly",
   ],
+
   impact: [
-    // Review every metric for accuracy and approval before public release; estimates are not audited savings or guarantees.
-    { value: "200+", label: "vendor security questionnaires supported or completed" },
-    { value: "~15%", label: "assessment-cycle efficiency improvement through visual processes and dashboards" },
-    { value: "Assurance", label: "cyber due diligence and security assurance experience" },
-    { value: "GRC", label: "dashboards, workflows, surveys, and automation" },
-    { value: "Leadership", label: "risk reporting for cyber, compliance, and technology governance" },
-    { value: "Evidence", label: "experience reviewing SOC 2, ISO 27001, PCI DSS, and penetration-testing evidence" },
+    {
+      value: "Governance at Scale",
+      label:
+        "Established structured intake and delivery practices that transformed ad hoc demand into a governed portfolio with visible ownership, priority, dependencies, testing requirements, and status.",
+    },
+    {
+      value: "Responsible AI",
+      label:
+        "Designed AI-assisted control and framework mapping approaches that retain source traceability, rationale, controlled statuses, reviewer validation, and evidence.",
+    },
+    {
+      value: "Platform Enablement",
+      label:
+        "Supported a substantial portfolio of GRC enhancements spanning workflows, applications, access, roles, surveys, dashboards, reporting, calculations, testing, and production support.",
+    },
+    {
+      value: "Risk Intelligence",
+      label:
+        "Improved the comparability of cyber and control information through normalization, quality review, framework mapping, maturity reporting, and decision-ready dashboards.",
+    },
+    {
+      value: "Audit Readiness",
+      label:
+        "Supported audit and compliance activities through evidence collection, artifact validation, access reviews, control support, standardized inventories, and traceable documentation.",
+    },
+    {
+      value: "Third-Party Oversight",
+      label:
+        "Strengthened vendor-review continuity through evidence validation, gap identification, follow-up coordination, risk qualification, governance design, and operating-model development.",
+    },
   ],
+
   expertise: [
     {
-      title: "Cyber Risk Management",
+      title: "Cyber Risk Governance",
       description:
-        "Risk identification, control assessment, security assurance, remediation tracking, risk exceptions, and executive reporting.",
+        "Develop governance structures that make ownership, escalation, decision rights, risk acceptance, exceptions, remediation, and evidence traceable.",
     },
     {
       title: "Third-Party Risk Management",
       description:
-        "Vendor questionnaires, SOC 2 review, ISO 27001 validation, penetration-test review, data-flow review, continuous monitoring, and reassessment.",
+        "Support vendor due diligence, evidence review, risk qualification, monitoring, remediation, escalation, contractual considerations, fourth-party oversight, and lifecycle governance.",
     },
     {
-      title: "GRC Platform Administration",
+      title: "GRC Platform Enablement",
       description:
-        "Onspring administration, workflows, role validation, dashboards, surveys, applications, process mapping, and user enablement.",
+        "Translate governance and business requirements into applications, workflows, dashboards, surveys, fields, formulas, notifications, access models, testing, and operational reporting.",
     },
     {
-      title: "Risk Analytics",
+      title: "Governance Automation",
       description:
-        "Power BI, DAX, Power Query, data modeling, executive dashboards, scenarios, trends, risk appetite, and evidence traceability.",
+        "Design governed automation that standardizes work, reduces rework, improves consistency, preserves evidence, and retains appropriate human decision authority.",
     },
     {
-      title: "AI Governance and Automation",
+      title: "Risk Normalization and Analytics",
       description:
-        "Human-in-the-loop design, AI-assisted control mapping, automation intake, Microsoft Copilot, Power Automate, Office Scripts, user acceptance testing, and synthetic-data testing.",
+        "Create consistent taxonomies, definitions, mappings, quality gates, calculations, trends, scenarios, and reporting structures that make risk information comparable.",
     },
     {
-      title: "Audit and Compliance",
+      title: "Control and Framework Mapping",
       description:
-        "Runbooks, standards, procedures, evidence templates, control mapping, access reviews, and audit support.",
+        "Apply AI-assisted analysis and manual validation to connect control requirements, SOC report responsibilities, internal objectives, and recognized frameworks.",
     },
     {
-      title: "Security Awareness",
+      title: "Audit and Compliance Readiness",
       description:
-        "Phishing simulations, NIST Phish Scale, campaign validation, reporting integrity, platform evaluations, and remedial training.",
+        "Support evidence collection, artifact validation, access reviews, readiness assessments, control testing, standardized inventories, and review-ready documentation.",
     },
     {
       title: "Cyber Due Diligence",
       description:
-        "Attack-surface review, vulnerability validation, architecture assessment, evidence gaps, risk qualifications, and leadership summaries.",
+        "Evaluate external exposure, architecture, vulnerabilities, identity, resilience, testing, data protection, evidence limitations, remediation, and decision qualifications.",
+    },
+    {
+      title: "Executive Risk Reporting",
+      description:
+        "Present risk position, trends, evidence, assumptions, tolerance, uncertainty, ownership, and recommended action in clear leadership-ready formats.",
+    },
+    {
+      title: "Operational Resilience and Continuity",
+      description:
+        "Strengthen repeatability through procedures, runbooks, documentation, knowledge transfer, structured request tracking, and clear operational ownership.",
     },
   ],
+
   projects: [
     {
       slug: "executive-technology-risk-dashboard",
       title: "Executive Technology Risk Dashboard",
       category: "Analytics",
       tags: ["Analytics", "Cyber Risk", "GRC"],
-      problem: "Leaders need a defensible, concise view of risk position, movement, tolerance, and decisions.",
-      role: "Designed a synthetic-data reporting concept connecting risk measures to evidence and leadership actions.",
-      tools: ["Power BI", "DAX", "Power Query", "Excel", "SVG visuals"],
-      outcome: "A leadership-oriented dashboard framework explaining risk position, drivers, trends, assumptions, evidence, and recommended actions.",
-      skills: ["Risk analytics", "Data modeling", "Executive reporting", "Data-quality validation"],
+      problem:
+        "Leadership needs a defensible and concise view of risk position, movement, tolerance, evidence, uncertainty, and required decisions.",
+      role:
+        "Designed a synthetic-data reporting framework connecting risk measures, calculation logic, evidence, ownership, trends, scenarios, and leadership actions.",
+      tools: [
+        "Power BI",
+        "DAX",
+        "Power Query",
+        "Excel",
+        "Semantic modeling",
+        "SVG visuals",
+      ],
+      outcome:
+        "A leadership-oriented dashboard framework explaining risk position, drivers, trends, assumptions, limitations, evidence, ownership, and recommended actions.",
+      skills: [
+        "Risk analytics",
+        "Data modeling",
+        "Executive reporting",
+        "Scenario analysis",
+        "Data-quality validation",
+      ],
       overview:
-        "A Power BI executive reporting concept that turns complex technology-risk measures into understandable risk positions, trends, tolerance comparisons, scenarios, evidence, and leadership actions.",
+        "An executive reporting concept that turns complex technology-risk measures into understandable risk positions, trends, tolerance comparisons, scenarios, evidence, and leadership actions.",
       challenge:
-        "Risk measures can be difficult to compare when their definitions, data quality, time periods, and owners are not visible alongside the results.",
-      why: "Without context, a score can hide emerging trends, tolerance breaches, assumptions, and the decision required from leadership.",
+        "Risk measures can be difficult to interpret when definitions, data quality, time periods, calculation logic, assumptions, and accountable owners are not visible alongside the result.",
+      why:
+        "A score without context can hide emerging trends, tolerance breaches, uncertainty, evidence limitations, and the decision required from leadership.",
       approach: [
-        "Define a consistent risk taxonomy and calculation logic.",
-        "Compare current values with targets and risk appetite.",
-        "Add prior-period trends and scenario analysis.",
-        "Connect supporting evidence, explain risk drivers, and recommend leadership actions.",
+        "Define a consistent risk taxonomy and calculation methodology.",
+        "Identify data owners, evidence sources, reporting periods, and quality expectations.",
+        "Compare current values with thresholds, targets, and risk appetite.",
+        "Add prior-period trends, scenarios, explanatory drivers, and assumptions.",
+        "Distinguish observed values from estimates, scenarios, and targets.",
+        "Connect supporting evidence and make limitations visible.",
+        "Add decision prompts, recommended actions, and accountable ownership.",
         "Provide drill-through navigation to supporting detail.",
       ],
       solution:
-        "Designed a layered reporting concept that pairs position and trend visuals with explanatory drivers, assumptions, evidence references, and decision prompts.",
+        "Designed a layered reporting concept that pairs risk position and trend visuals with drivers, assumptions, evidence references, data-quality indicators, and decision prompts.",
       controls: [
-        "Document metric definitions, owners, and calculation assumptions.",
-        "Validate source data and identify incomplete or stale evidence.",
-        "Separate observed values from scenarios and targets.",
-        "Keep drill-through evidence traceable to its source.",
+        "Document metric definitions, owners, sources, periods, and calculation assumptions.",
+        "Validate source data and identify incomplete, inconsistent, or stale evidence.",
+        "Separate observed values from scenarios, estimates, and targets.",
+        "Retain traceability from executive measures to supporting evidence.",
+        "Display uncertainty and known limitations alongside conclusions.",
+        "Assign follow-up actions to accountable owners.",
       ],
       workflow: [
         "Define risk taxonomy",
+        "Identify data and evidence owners",
         "Establish calculation logic",
-        "Compare current values with targets and appetite",
-        "Add prior-period trends",
-        "Add scenario analysis",
-        "Connect supporting evidence",
-        "Explain risk drivers",
+        "Validate information quality",
+        "Compare position with tolerance",
+        "Add trends and scenarios",
+        "Explain drivers and limitations",
         "Recommend leadership actions",
-        "Provide drill-through navigation",
+        "Provide drill-through evidence",
       ],
-      lessons: "A useful executive dashboard makes limitations and decision context as visible as the metric itself.",
+      lessons:
+        "An effective executive dashboard does more than display metrics. It connects every material conclusion to definitions, assumptions, evidence, ownership, limitations, and an actionable decision.",
     },
+
     {
       slug: "third-party-risk-operating-model",
       title: "Third-Party Risk Operating Model",
       category: "Third-Party Risk",
       tags: ["Third-Party Risk", "GRC", "Audit and Compliance"],
-      problem: "Requirements, service expectations, analyst instructions, ownership, and evidence can drift across documents.",
-      role: "Created a method for aligning operating guidance, accountability, rating criteria, systems, and audit evidence.",
-      tools: ["Onspring", "Microsoft Word", "SharePoint", "Process mapping", "RACI"],
-      outcome: "Reduced the risk of contradictory requirements, unclear ownership, duplicated instructions, and audit-evidence gaps.",
-      skills: ["Third-party governance", "RACI", "Process design", "Evidence traceability"],
+      problem:
+        "Standards, procedures, service expectations, analyst instructions, ownership models, risk criteria, systems, and evidence can drift when they are maintained independently.",
+      role:
+        "Designed a governance hierarchy and alignment method connecting program requirements, operational processes, platform workflows, decision rights, service expectations, analyst execution, and audit evidence.",
+      tools: [
+        "Onspring",
+        "Microsoft Word",
+        "SharePoint",
+        "Process mapping",
+        "RACI",
+        "Evidence mapping",
+      ],
+      outcome:
+        "A more consistent operating structure that reduces contradictory requirements, duplicated instructions, unclear ownership, inconsistent decisions, and audit-evidence gaps.",
+      skills: [
+        "Third-party governance",
+        "Operating-model design",
+        "RACI",
+        "Process design",
+        "Evidence traceability",
+      ],
       overview:
-        "A structured method for aligning third-party risk standards, procedures, service levels, analyst runbooks, ownership, rating criteria, systems, and audit evidence.",
+        "A structured approach for aligning third-party risk governance, operating procedures, service expectations, analyst runbooks, ownership, risk criteria, platform status, decision records, and audit evidence.",
       challenge:
-        "Multiple documents and systems can create contradictory instructions, duplicated guidance, unclear decision rights, and gaps in retained evidence.",
-      why: "A consistent operating model helps reviewers apply ratings consistently and helps stakeholders understand timing, escalation, decisions, and records.",
+        "Multiple documents, stakeholders, and systems can produce conflicting terminology, duplicated guidance, unclear decision rights, inconsistent risk treatment, and evidence that is disconnected from the underlying decision.",
+      why:
+        "A coordinated operating model helps reviewers apply requirements consistently and helps stakeholders understand timing, ownership, escalation, decision authority, remediation, and retained records.",
       approach: [
+        "Define the distinct purpose and authority of each governance document.",
         "Map the governance standard to the operating procedure.",
-        "Define service levels, escalation paths, and accountable owners.",
-        "Translate procedures into concise analyst runbooks.",
-        "Connect decisions and evidence to the system of record.",
+        "Establish service expectations, aging rules, and escalation paths.",
+        "Define accountable owners and decision rights through a RACI.",
+        "Translate procedures into concise analyst execution guidance.",
+        "Align platform statuses and workflows with the approved process.",
+        "Connect risk decisions and supporting evidence to the system of record.",
+        "Validate cross-document terminology, references, and revision history.",
       ],
       solution:
-        "Designed a linked hierarchy that makes each layer serve a distinct purpose while maintaining traceability across policy, daily work, and audit evidence.",
+        "Designed a linked governance hierarchy in which each layer serves a distinct purpose while maintaining traceability across requirements, daily execution, platform configuration, decisions, and evidence.",
       controls: [
         "Governance Standard → Operating Procedure → Service Levels and Escalation → Analyst Runbook → Evidence and Audit Traceability.",
-        "Define RACI ownership, rating definitions, due dates, and aging rules.",
-        "Document escalation criteria, decision records, and evidence retention.",
-        "Specify system-of-record requirements and cross-document references.",
+        "Define RACI ownership, rating definitions, decision rights, due dates, aging rules, and escalation thresholds.",
+        "Document risk decisions, qualifications, remediation, exceptions, and evidence retention.",
+        "Align platform statuses, notifications, and reporting with approved operating requirements.",
+        "Maintain cross-document references, version history, ownership, and approval records.",
       ],
       governanceFlow: [
         "Governance Standard",
@@ -185,36 +304,62 @@ export const portfolio = {
         "Analyst Runbook",
         "Evidence and Audit Traceability",
       ],
-      lessons: "Clear boundaries between governance, process, and task-level guidance reduce ambiguity without duplicating instructions.",
+      lessons:
+        "Governance becomes easier to execute and defend when policy, operational process, analyst guidance, system configuration, ownership, decisions, and evidence function as one connected operating model.",
     },
+
     {
       slug: "ai-and-automation-intake",
-      title: "AI and Automation Intake",
+      title: "AI and Automation Governance Intake",
       category: "Automation",
       tags: ["Automation", "Analytics", "GRC"],
-      problem: "Automation opportunities arrive through disconnected channels without consistent risk, value, and readiness information.",
-      role: "Designed a centralized intake and reporting method for requests and their delivery lifecycle.",
-      tools: ["Microsoft Forms", "Power Automate", "Excel", "SharePoint", "Power BI", "Microsoft Copilot"],
-      outcome: "A consistent view of demand, feasibility, risk review, delivery status, and measured value using fictional records.",
-      skills: ["Responsible automation", "Intake design", "Workflow governance", "Value measurement"],
+      problem:
+        "AI and automation opportunities often arrive through disconnected channels without consistent information about ownership, business value, data sensitivity, dependencies, risk, readiness, testing, or expected outcomes.",
+      role:
+        "Established a centralized intake and portfolio-management approach that transformed ad hoc demand into a structured governance process spanning automation, analytics, platform support, audit support, third-party risk, and AI-assisted analysis.",
+      tools: [
+        "Microsoft Forms",
+        "Power Automate",
+        "Excel",
+        "SharePoint",
+        "Power BI",
+        "Microsoft Copilot",
+      ],
+      outcome:
+        "A governed portfolio providing visibility into business need, request type, accountable ownership, priority, dependencies, risk considerations, effort, testing requirements, delivery status, and expected value.",
+      skills: [
+        "Responsible automation",
+        "Demand governance",
+        "Intake design",
+        "Portfolio management",
+        "Workflow governance",
+        "Value measurement",
+      ],
       overview:
-        "A centralized intake and reporting method for AI and automation requests, from problem definition through user acceptance testing and value measurement.",
+        "A centralized intake and reporting model for AI, automation, data, reporting, and platform requests from initial problem definition through feasibility, prioritization, testing, deployment, and value measurement.",
       challenge:
-        "Requests can lack an accountable owner, data-sensitivity context, dependencies, or a clear way to compare expected effort and value.",
-      why: "An intake process supports transparent prioritization and ensures governance review is part of feasibility rather than an afterthought.",
+        "Requests may lack an accountable owner, clearly defined problem, data-sensitivity context, dependencies, feasibility assessment, expected value, or an appropriate delivery path.",
+      why:
+        "A governed intake supports transparent prioritization and ensures that risk, feasibility, ownership, human validation, testing, and value measurement are considered before development begins.",
       approach: [
-        "Capture the business problem, process owner, data sensitivity, and current manual effort.",
-        "Assess automation suitability, dependencies, risk, and priority.",
-        "Track status, estimated hours, user acceptance testing, and delivered value.",
-        "Use fictional request records in demonstrations.",
+        "Capture the business problem, current process, intended users, and accountable owner.",
+        "Identify data sensitivity, source systems, dependencies, access requirements, and affected stakeholders.",
+        "Determine whether the need calls for automation, reporting, platform configuration, AI assistance, or a governed manual process.",
+        "Assess feasibility, risk, effort, expected value, and readiness.",
+        "Define human validation, testing, approval, deployment, and rollback expectations.",
+        "Track priority, status, ownership, dependencies, issues, effort, and decisions.",
+        "Measure realized value separately from estimated value.",
       ],
       solution:
-        "Outlined a lightweight request register and workflow connecting intake forms, review, delivery tracking, and reporting.",
+        "Designed a centralized request register and governance lifecycle connecting intake, clarification, risk and feasibility review, prioritization, delivery, user acceptance testing, deployment, and outcome measurement.",
       controls: [
-        "Submitted → Initial Review → Clarification → Risk and Feasibility → Prioritized → Development → User Acceptance Testing → Deployed → Value Measurement.",
-        "Require an accountable process owner and risk review before prioritization.",
-        "Record estimates separately from measured outcomes.",
-        "Retain reviewer decisions and deployment approvals.",
+        "Require a defined business problem and accountable process owner.",
+        "Identify data sensitivity, access requirements, dependencies, and affected stakeholders.",
+        "Document feasibility, expected value, risks, assumptions, and limitations.",
+        "Require human validation where AI supports interpretation or recommendation.",
+        "Define user acceptance testing and approval before deployment.",
+        "Separate estimated benefits from measured outcomes.",
+        "Retain reviewer decisions, exceptions, testing results, and deployment approvals.",
       ],
       workflow: [
         "Submitted",
@@ -222,307 +367,649 @@ export const portfolio = {
         "Clarification",
         "Risk and Feasibility",
         "Prioritized",
+        "Solution Design",
         "Development",
         "User Acceptance Testing",
+        "Deployment Approval",
         "Deployed",
         "Value Measurement",
       ],
-      lessons: "A measurable intake balances business value with data sensitivity, feasibility, ownership, and ongoing accountability.",
+      lessons:
+        "A successful intake does more than record requests. It helps the organization choose the appropriate delivery path while making ownership, risk, dependencies, testing, evidence, and expected value visible.",
     },
+
     {
       slug: "onspring-governance-workflow-enablement",
-      title: "Onspring Governance and Workflow Enablement",
+      title: "GRC Platform Governance and Workflow Enablement",
       category: "GRC",
       tags: ["GRC", "Automation", "Audit and Compliance"],
-      problem: "GRC workflows need dependable role boundaries, consistent statuses, clear ownership, and usable reporting.",
-      role: "Supported workflow, role, access, survey, dashboard, application, documentation, and stakeholder enablement activities.",
-      tools: ["Onspring", "Process mapping", "UAT", "Dashboards", "SOPs"],
-      outcome: "More repeatable workflows, clearer ownership, stronger reporting, and improved stakeholder support.",
-      skills: ["GRC administration", "Access governance", "User acceptance testing", "Stakeholder enablement"],
+      problem:
+        "GRC platforms require disciplined governance across applications, workflows, roles, access, fields, formulas, surveys, dashboards, testing, reporting, and production support.",
+      role:
+        "Supported platform administration and solution delivery across applications, workflows, data structures, roles, security, surveys, dashboards, reports, calculations, notifications, testing, troubleshooting, documentation, and stakeholder enablement.",
+      tools: [
+        "Onspring",
+        "Workflow configuration",
+        "Role-based access control",
+        "Process mapping",
+        "User acceptance testing",
+        "Dashboards",
+        "Standard operating procedures",
+      ],
+      outcome:
+        "More repeatable workflows, clearer ownership, stronger reporting, improved access governance, better decision traceability, and increased internal platform capability.",
+      skills: [
+        "GRC administration",
+        "Workflow design",
+        "Access governance",
+        "Application configuration",
+        "User acceptance testing",
+        "Stakeholder enablement",
+      ],
       overview:
-        "A sanitized demonstration of work involving GRC workflows, roles, access, surveys, dashboards, applications, standard operating procedures, testing, reporting, and stakeholder enablement.",
+        "A governance-led approach to administering and improving an enterprise GRC platform across access, roles, applications, workflows, surveys, dashboards, reports, calculations, testing, documentation, and production support.",
       challenge:
-        "Platform workflows are difficult to support when role boundaries, process ownership, status definitions, and reporting logic are not consistently documented.",
-      why: "Clearer workflow and access expectations support reliable operations and reduce confusion for users and reviewers.",
+        "Platform environments become difficult to operate when process ownership, role boundaries, status definitions, calculation logic, reporting requirements, testing expectations, and change history are not consistently governed.",
+      why:
+        "A GRC platform should reinforce the approved operating model. Misalignment between platform configuration and documented governance can create unreliable reporting, unclear ownership, access issues, and inconsistent execution.",
       approach: [
-        "Validate access boundaries and map applications and processes.",
-        "Document workflow steps and standardize status definitions.",
-        "Improve dashboards and support user acceptance testing.",
-        "Define ownership and track requested changes.",
+        "Translate governance and stakeholder requirements into controlled platform changes.",
+        "Validate users, licenses, access boundaries, security roles, and ownership.",
+        "Map applications, repositories, surveys, fields, formulas, and workflows.",
+        "Standardize statuses, routing, calculations, notifications, and reporting definitions.",
+        "Build and refine dashboards that support operational and leadership decisions.",
+        "Create test scenarios and support structured user acceptance testing.",
+        "Document requirements, approvals, testing, deployment, ownership, and support needs.",
+        "Maintain alignment between development and production environments.",
       ],
       solution:
-        "Supported repeatable platform practices through process documentation, access validation, dashboard refinement, testing, and stakeholder guidance.",
+        "Established repeatable platform practices connecting requirements, configuration, access governance, testing, deployment, documentation, reporting, and stakeholder support.",
       controls: [
-        "Validate role boundaries before access changes.",
-        "Record ownership, process changes, and approvals.",
-        "Use documented test cases and user acceptance feedback.",
-        "Keep reporting definitions aligned to workflow statuses.",
+        "Validate role boundaries and least-privilege requirements before access changes.",
+        "Document ownership, requirements, configuration decisions, and approvals.",
+        "Require test cases, expected outcomes, and user acceptance feedback.",
+        "Align reporting definitions with workflow statuses and approved calculations.",
+        "Track defects, changes, deployment status, and production support needs.",
+        "Maintain operational documentation and knowledge-transfer materials.",
       ],
-      lessons: "A GRC platform is most effective when system configuration, documented process, access governance, and user support reinforce one another.",
+      lessons:
+        "Internal platform capability creates the most value when configuration knowledge, testing discipline, access governance, documentation, reporting, and stakeholder support are treated as one operating model.",
     },
+
     {
-      slug: "ai-assisted-control-mapping",
-      title: "AI-Assisted Control Mapping",
+      slug: "soc-control-mapping-output-automation",
+      title: "SOC Control Mapping and Output Automation",
       category: "Automation",
       tags: ["Automation", "Audit and Compliance", "GRC"],
-      problem: "Comparing large sets of requirements to internal controls can be repetitive and difficult to trace.",
-      role: "Designed a human-validated approach for suggesting and documenting possible control relationships.",
-      tools: ["Microsoft Copilot", "Excel", "Power Automate", "Office Scripts", "Control frameworks"],
-      outcome: "A controlled mapping workflow where AI accelerates discovery while human reviewers retain decision authority.",
-      skills: ["AI governance", "Control mapping", "Human validation", "Audit traceability"],
+      problem:
+        "SOC report control extraction, internal-control mapping, rationale documentation, reviewer validation, and workbook formatting can require significant manual effort and produce inconsistent outputs.",
+      role:
+        "Designed a human-validated control-mapping approach and a downstream workflow for converting analysis into standardized, review-ready outputs.",
+      tools: [
+        "Microsoft Copilot",
+        "Power Automate",
+        "Excel",
+        "Office Scripts",
+        "SOC reports",
+        "Control frameworks",
+      ],
+      outcome:
+        "A more structured and repeatable process that accelerates control analysis and output preparation without removing reviewer accountability or evidence traceability.",
+      skills: [
+        "Responsible automation",
+        "Control mapping",
+        "Human validation",
+        "Evidence traceability",
+        "Workflow design",
+      ],
       overview:
-        "A human-validated method for mapping customer or audit requirements to internal controls while retaining evidence, reviewer decisions, and exceptions.",
+        "A two-part automation approach for extracting control responsibilities from SOC reports, proposing traceable internal-control relationships, and converting reviewed output into a standardized workbook.",
       challenge:
-        "Manual mapping is time-consuming, while unreviewed automated matches can create false assurance or obscure important differences.",
-      why: "Mappings influence audit responses and risk decisions, so reviewers need source visibility, rationale, and a clear way to handle ambiguity.",
+        "Manual extraction, mapping, rationale development, validation, and formatting can create inconsistent outputs, limited traceability, duplicated effort, and review delays.",
+      why:
+        "SOC review conclusions influence audit and risk decisions, making source visibility, rationale, controlled statuses, reviewer validation, and consistent presentation essential.",
       approach: [
-        "Ingest control statements and normalize wording.",
-        "Suggest likely matches and assign a confidence indicator.",
-        "Require a human reviewer to validate each proposed relationship.",
-        "Record decisions, exceptions, evidence, and unmatched or ambiguous items.",
+        "Extract relevant control responsibilities from source reports.",
+        "Preserve original source statements and references.",
+        "Normalize wording while retaining original meaning.",
+        "Propose internal control relationships with documented rationale.",
+        "Assign controlled statuses for proposed, validated, disputed, and unresolved items.",
+        "Require human validation before use.",
+        "Convert reviewed output into a standardized workbook structure.",
+        "Retain procedures and user guidance for repeatable execution.",
       ],
       solution:
-        "Designed a review queue that preserves the source and target statements, suggested match, confidence, reviewer rationale, and disposition.",
+        "Combined AI-assisted analysis with required human review and a downstream formatting workflow using Power Automate, Excel, and Office Scripts.",
       controls: [
-        "AI recommends but does not approve.",
-        "Human validation is mandatory; confidence does not replace evidence.",
-        "Keep source and target controls visible and log changes.",
-        "Escalate ambiguities and preserve reviewer decisions.",
+        "AI proposes relationships but does not approve them.",
+        "Every proposed mapping retains source text and supporting rationale.",
+        "Reviewers validate relationships before final use.",
+        "Defined statuses distinguish proposed, validated, disputed, and unresolved items.",
+        "Standardized output supports consistent review and evidence retention.",
+        "Procedures document required inputs, validation steps, and expected outputs.",
       ],
-      lessons: "Automation is most defensible when it improves navigation and consistency without becoming the authority for control conclusions.",
+      workflow: [
+        "Extract source controls",
+        "Normalize statements",
+        "Propose relationships",
+        "Document rationale",
+        "Assign review status",
+        "Perform human validation",
+        "Format review workbook",
+        "Retain evidence",
+      ],
+      lessons:
+        "Combining AI-assisted analysis with accountable human review and standardized output can reduce manual effort without weakening decision authority, source traceability, or audit defensibility.",
     },
+
     {
       slug: "security-framework-mapping",
-      title: "Security Framework Mapping",
+      title: "Security Framework Mapping and Readiness Analysis",
       category: "Audit and Compliance",
       tags: ["Audit and Compliance", "GRC", "Cyber Risk"],
-      problem: "Framework statements and internal controls use different language, scopes, and levels of detail.",
-      role: "Designed a structured method for mapping requirements to NIST Cybersecurity Framework 2.0 and an internal control framework.",
-      tools: ["NIST Cybersecurity Framework 2.0", "Excel", "Control mapping", "Reviewer evidence"],
-      outcome: "A traceable mapping register that exposes proposed relationships, gaps, duplicates, disputes, and reviewer evidence.",
-      skills: ["Framework analysis", "Control mapping", "Gap reporting", "Evidence management"],
+      problem:
+        "External framework statements and internal controls often use different terminology, scopes, structures, and evidence expectations.",
+      role:
+        "Applied AI-assisted comparison and manual validation to evaluate relationships between recognized framework requirements and an internal control structure.",
+      tools: [
+        "NIST Cybersecurity Framework 2.0",
+        "Microsoft Copilot",
+        "Excel",
+        "Control mapping",
+        "Reviewer evidence",
+      ],
+      outcome:
+        "A traceable mapping structure that distinguishes full coverage, partial coverage, gaps, duplicate relationships, disputed mappings, and evidence needs.",
+      skills: [
+        "Framework analysis",
+        "Control mapping",
+        "Gap analysis",
+        "Human validation",
+        "Evidence management",
+      ],
       overview:
-        "A repeatable method for normalizing requirements and validating proposed relationships to NIST Cybersecurity Framework 2.0 and an internal control framework.",
+        "A repeatable method for normalizing security framework requirements, proposing internal-control relationships, validating those relationships, and identifying coverage and readiness gaps.",
       challenge:
-        "Framework mapping can imply equivalence where requirements differ in scope, intent, or evidence expectations.",
-      why: "Visible rationale and reviewer decisions keep mappings useful for gap analysis without overstating formal alignment or certification.",
+        "Framework mapping can imply equivalence where requirements differ in scope, intent, implementation expectation, maturity, or supporting evidence.",
+      why:
+        "Visible rationale and reviewer decisions allow mappings to support readiness and gap analysis without overstating alignment, maturity, or certification.",
       approach: [
-        "Normalize statements while preserving original wording and source.",
-        "Propose candidate mappings and document rationale.",
-        "Validate each relationship with a reviewer and capture disputed mappings.",
-        "Report gaps, duplicates, unmatched items, and reporting categories.",
+        "Preserve the original framework statement and source version.",
+        "Normalize statements while retaining original meaning.",
+        "Propose candidate control relationships and document rationale.",
+        "Validate proposed relationships through accountable human review.",
+        "Distinguish full coverage, partial coverage, gaps, and unresolved items.",
+        "Identify duplicate relationships and inconsistent interpretations.",
+        "Retain reviewer evidence, notes, and validation status.",
+        "Use aggregated results for readiness reporting without implying certification.",
       ],
       solution:
-        "Outlined a mapping register with source references, proposed links, validation status, reviewer evidence, and exception notes.",
+        "Designed a mapping register containing source references, proposed relationships, rationale, validation status, reviewer evidence, coverage classification, gaps, and exception notes.",
       controls: [
-        "Preserve source wording and framework version.",
-        "Separate proposed mappings from reviewer-validated mappings.",
-        "Record disagreements, gaps, duplicates, and supporting evidence.",
-        "Do not imply formal NIST certification.",
+        "Preserve source wording, framework version, and original identifiers.",
+        "Separate proposed relationships from reviewer-validated conclusions.",
+        "Record rationale, disagreements, partial coverage, gaps, and supporting evidence.",
+        "Require human validation before governance or readiness reporting.",
+        "Do not imply formal framework certification.",
       ],
-      lessons: "A transparent mapping explains where requirements align and where judgment or additional evidence is still required.",
+      lessons:
+        "AI can accelerate framework comparison, but defensible conclusions require preserved source statements, visible rationale, manual validation, and explicit identification of partial coverage and gaps.",
     },
+
     {
       slug: "vendor-proof-of-concept-governance",
       title: "Vendor Proof-of-Concept Governance",
       category: "Third-Party Risk",
       tags: ["Third-Party Risk", "Cyber Risk", "Audit and Compliance"],
-      problem: "Testing an external technology solution requires useful evaluation without exposing production systems or sensitive information.",
-      role: "Created a safe evaluation framework emphasizing scoped access, synthetic data, evidence, and exit decisions.",
-      tools: ["Vendor sandbox", "Synthetic data", "Architecture review", "UAT", "Issue tracking"],
-      outcome: "A controlled test lifecycle with documented success criteria, evidence, issues, and an explicit close-or-transition decision.",
-      skills: ["Third-party assurance", "Security testing governance", "Architecture review", "Decision records"],
+      problem:
+        "Testing an external technology solution requires useful evaluation without unnecessarily exposing production systems, sensitive information, credentials, or organizational data.",
+      role:
+        "Created a controlled evaluation framework emphasizing scoped access, synthetic data, architecture review, evidence, success criteria, and explicit exit decisions.",
+      tools: [
+        "Vendor sandbox",
+        "Synthetic data",
+        "Architecture review",
+        "User acceptance testing",
+        "Issue tracking",
+      ],
+      outcome:
+        "A governed test lifecycle with documented boundaries, success criteria, evidence, issues, user feedback, remediation, and a clear close-or-transition decision.",
+      skills: [
+        "Third-party assurance",
+        "Security testing governance",
+        "Architecture review",
+        "User acceptance testing",
+        "Decision records",
+      ],
       overview:
-        "A sanitized governance approach for evaluating an external technology solution in a restricted environment before making a broader decision.",
+        "A sanitized governance approach for evaluating an external technology solution in a restricted environment before making a broader implementation decision.",
       challenge:
-        "A proof of concept may introduce unnecessary access, data-flow, retention, or integration risks if boundaries and exit conditions are unclear.",
-      why: "A limited, well-documented evaluation helps decision-makers assess fit while preserving security and accountability.",
+        "A proof of concept can introduce unnecessary access, data-flow, credential, retention, integration, or operational risks if test boundaries and exit conditions are unclear.",
+      why:
+        "A limited and well-documented evaluation helps decision-makers assess fit, capabilities, security, and operational readiness while preserving accountability.",
       approach: [
-        "Define use cases, architecture, success criteria, and exit requirements.",
-        "Establish a vendor-provided sandbox and validate restricted access.",
-        "Execute scoped tests, record results, and resolve or track issues.",
-        "Make a documented decision to close or transition.",
+        "Define approved use cases, intended users, scope, and expected outcomes.",
+        "Confirm architecture, data flow, access, credentials, and environment boundaries.",
+        "Establish a vendor-provided sandbox using synthetic information.",
+        "Define test scenarios, success criteria, issue handling, and evidence requirements.",
+        "Execute scoped tests and collect structured user feedback.",
+        "Track issues, remediation, retesting, and unresolved conditions.",
+        "Make a documented decision to close, extend, or transition.",
       ],
       solution:
-        "Designed a phased evaluation that keeps the test environment separate from production and makes evidence, feedback, and decisions traceable.",
+        "Designed a phased evaluation that separates testing from production and makes access, evidence, feedback, issues, and decisions traceable.",
       controls: [
-        "Use synthetic data, a vendor-provided sandbox, and no initial production connection.",
-        "Use test credentials, a dedicated service account, restricted connectors, and multifactor authentication.",
-        "Review architecture and data flows; define evidence storage, retention, and deletion.",
-        "Set success criteria, collect user acceptance feedback, track issues, and define exit criteria.",
+        "Use synthetic data and a restricted vendor-provided sandbox.",
+        "Do not establish an initial production connection.",
+        "Use dedicated test credentials and multifactor authentication.",
+        "Restrict connectors, service accounts, and access permissions.",
+        "Review architecture, integrations, and data flows.",
+        "Define evidence storage, retention, deletion, and closure requirements.",
+        "Set measurable success criteria and obtain user acceptance feedback.",
+        "Define exit criteria and retain the final decision record.",
       ],
       workflow: [
         "Define Use Cases",
         "Confirm Architecture",
         "Establish Sandbox",
         "Validate Access",
+        "Define Success Criteria",
         "Execute Tests",
         "Record Results",
         "Address Issues",
+        "Retest",
         "Make Decision",
         "Close or Transition",
       ],
-      lessons: "A proof of concept is safer and more useful when its access, data, time bounds, and exit criteria are explicit before testing starts.",
+      lessons:
+        "A proof of concept is safer and more useful when access, data, time, evidence, success measures, and exit conditions are explicit before testing begins.",
     },
+
     {
       slug: "audit-evidence-document-harmonization",
       title: "Audit Evidence and Document Harmonization",
       category: "Audit and Compliance",
       tags: ["Audit and Compliance", "GRC"],
-      problem: "Related governance documents can drift in terminology, roles, timelines, system names, and evidence references.",
-      role: "Designed a review method to align standards, procedures, runbooks, evidence records, and revision history.",
-      tools: ["SharePoint", "Microsoft Word", "Document review", "Evidence templates"],
-      outcome: "Improved traceability and reduced the risk of conflicting audit evidence.",
-      skills: ["Audit readiness", "Document governance", "Evidence management", "Quality assurance"],
+      problem:
+        "Related standards, procedures, runbooks, workflows, terminology, ownership models, and evidence records can drift even when each item appears individually correct.",
+      role:
+        "Designed a review method for aligning governance documents, operating guidance, platform terminology, evidence records, accountability, and revision history.",
+      tools: [
+        "SharePoint",
+        "Microsoft Word",
+        "Document review",
+        "Evidence templates",
+        "Control mapping",
+      ],
+      outcome:
+        "Improved traceability and reduced the risk of conflicting governance requirements, outdated guidance, unclear ownership, and inconsistent audit evidence.",
+      skills: [
+        "Audit readiness",
+        "Document governance",
+        "Evidence management",
+        "Quality assurance",
+        "Control traceability",
+      ],
       overview:
-        "A repeatable quality review for aligning standards, procedures, analyst runbooks, evidence records, terminology, ownership, and revisions.",
+        "A repeatable quality review for aligning standards, procedures, service expectations, analyst runbooks, evidence records, terminology, ownership, systems, and revisions.",
       challenge:
-        "Small inconsistencies across documents can make requirements unclear and weaken the connection between an approved process and evidence of execution.",
-      why: "Consistent, traceable documentation helps users follow current guidance and helps reviewers understand how requirements are implemented.",
+        "Small inconsistencies across documents can make requirements unclear and weaken the connection between approved governance, operational execution, platform configuration, and evidence.",
+      why:
+        "Consistent and traceable documentation helps users follow current guidance and helps reviewers understand how requirements are implemented, monitored, and evidenced.",
       approach: [
-        "Review document purpose, owner, approver, version, effective date, and review date.",
-        "Compare terminology, roles, rating models, timelines, escalation rules, and system names.",
-        "Validate evidence references, revision history, archived versions, and cross-document links.",
+        "Confirm each document's title, purpose, authority, owner, approver, version, and review cadence.",
+        "Compare terminology, roles, decision rights, rating models, timelines, and escalation rules.",
+        "Validate system names, workflow statuses, calculations, and reporting definitions.",
+        "Confirm evidence references and connections to requirements.",
+        "Review revision history, archived versions, approval records, and cross-document links.",
+        "Document identified conflicts and assign remediation ownership.",
       ],
       solution:
-        "Created a structured review checklist and relationship map for identifying conflicting or missing references before publication.",
+        "Created a structured review checklist and relationship map for identifying conflicting, outdated, duplicated, or missing references before publication or audit use.",
       controls: [
-        "Confirm document ownership, approval, version, and review cadence.",
+        "Confirm document ownership, approval, effective date, version, and review date.",
         "Maintain revision history and archive superseded versions.",
+        "Use consistent terminology across governance and operational documents.",
         "Validate evidence links and cross-document references.",
-        "Track identified conflicts through documented review and approval.",
+        "Track conflicts through documented review, remediation, and approval.",
+        "Confirm published instructions match platform configuration and operational practice.",
       ],
-      lessons: "Document quality is a governance control: consistent terminology and traceable revisions make work easier to execute and evidence.",
+      lessons:
+        "Document quality is a governance control. Consistent terminology, ownership, revision discipline, and evidence traceability make work easier to execute, maintain, and defend.",
     },
+
     {
       slug: "phishing-simulation-quality-assurance",
       title: "Phishing Simulation Quality Assurance",
       category: "Cyber Risk",
       tags: ["Cyber Risk", "Analytics", "Audit and Compliance"],
-      problem: "Campaign results can be misread when delivery, rendering, automated activity, or reporting limitations are not validated.",
-      role: "Supported simulation quality, campaign reporting, platform evaluation, and stakeholder communication.",
-      tools: ["NIST Phish Scale", "Simulation platforms", "Campaign reporting", "Quality assurance"],
-      outcome: "Improved confidence in simulation results and leadership reporting.",
-      skills: ["Security awareness", "Reporting validation", "Quality assurance", "Stakeholder communication"],
+      problem:
+        "Simulation results can be misleading when delivery, rendering, allowlisting, automated activity, link inspection, difficulty, or reporting limitations are not validated.",
+      role:
+        "Supported simulation quality, campaign configuration, reporting validation, platform evaluation, issue investigation, stakeholder communication, and training coordination.",
+      tools: [
+        "NIST Phish Scale",
+        "Simulation platforms",
+        "Campaign reporting",
+        "Quality assurance",
+        "Stakeholder communications",
+      ],
+      outcome:
+        "Improved confidence in simulation results and created more defensible reporting by documenting technical behavior, difficulty, limitations, and abnormal activity.",
+      skills: [
+        "Security awareness",
+        "Reporting validation",
+        "Quality assurance",
+        "Platform evaluation",
+        "Stakeholder communication",
+      ],
       overview:
-        "A quality-assurance approach for phishing simulations that validates campaign behavior, interprets results carefully, and communicates limitations.",
+        "A quality-assurance approach for phishing simulations that validates campaign behavior, interprets results carefully, documents limitations, and supports appropriate learning outcomes.",
       challenge:
-        "Rendering differences, allowlisting, automated link scanning, and inconsistent reporting can distort campaign conclusions.",
-      why: "Reliable awareness reporting supports practical learning and avoids treating uncertain signals as definitive measures of individual behavior.",
+        "Rendering differences, email security controls, automated link scanning, allowlisting, delivery issues, and inconsistent reporting can distort campaign conclusions.",
+      why:
+        "Reliable awareness reporting supports practical learning and prevents uncertain technical signals from being treated as definitive measures of participant behavior.",
       approach: [
-        "Validate delivery, message rendering, and link behavior.",
-        "Investigate abnormal clicks and coordinate allowlisting.",
-        "Assess automated versus organic activity and apply the NIST Phish Scale.",
-        "Review campaign reporting, document limitations, and communicate results.",
+        "Validate campaign configuration, message delivery, rendering, and link behavior.",
+        "Investigate abnormal click activity and automated scanning.",
+        "Coordinate allowlisting and delivery troubleshooting.",
+        "Apply consistent difficulty assessment using the NIST Phish Scale.",
+        "Review campaign reporting and document limitations.",
+        "Protect participant information and communicate results appropriately.",
+        "Coordinate training and remediation where supported by evidence.",
       ],
       solution:
-        "Outlined a repeatable campaign review that pairs technical validation with context, documented limitations, and appropriate remedial training.",
+        "Outlined a repeatable campaign-review process that combines technical validation, difficulty assessment, reporting context, documented limitations, and stakeholder communication.",
       controls: [
-        "Validate test configuration and delivery before interpreting results.",
-        "Document abnormal activity, filtering, and reporting limitations.",
-        "Use consistent evaluation criteria and protect participant information.",
+        "Validate configuration and delivery before interpreting results.",
+        "Document automated activity, filtering behavior, and reporting limitations.",
+        "Use consistent difficulty and quality-assurance criteria.",
+        "Protect participant information and restrict unnecessary disclosure.",
         "Escalate platform issues and retain approved campaign evidence.",
+        "Avoid unsupported conclusions from isolated click-rate comparisons.",
       ],
-      lessons: "Clear methodology and transparent limitations make awareness measures more useful than isolated click-rate comparisons.",
+      lessons:
+        "Security awareness measures become more useful when technical behavior, campaign difficulty, limitations, and participant protections are considered alongside the headline result.",
     },
+
     {
       slug: "cyber-due-diligence",
       title: "Cyber Due Diligence",
       category: "Third-Party Risk",
       tags: ["Third-Party Risk", "Cyber Risk", "Audit and Compliance"],
-      problem: "Decision-makers need a concise view of cyber posture, evidence gaps, dependencies, and remediation conditions.",
-      role: "Supported due diligence by reviewing sanitized evidence and translating considerations into decision-ready qualifications.",
-      tools: ["SOC 2", "ISO 27001", "Penetration-test summaries", "Architecture review", "Risk register"],
-      outcome: "A fictional, evidence-led decision summary with clear qualifications, additional evidence requests, and follow-up actions.",
-      skills: ["Cyber due diligence", "Security assurance", "Risk qualification", "Executive summaries"],
+      problem:
+        "Decision-makers need a concise and evidence-led view of cyber posture, architecture, external exposure, resilience, data protection, evidence gaps, dependencies, and remediation conditions.",
+      role:
+        "Supported cyber due diligence by reviewing sanitized evidence and translating observations, limitations, open questions, and follow-up conditions into decision-ready qualifications.",
+      tools: [
+        "SOC 2",
+        "ISO 27001",
+        "Penetration-test summaries",
+        "External exposure review",
+        "Architecture review",
+        "Risk register",
+      ],
+      outcome:
+        "A fictional and evidence-led decision framework with clear observations, limitations, qualifications, additional evidence requests, remediation expectations, and follow-up actions.",
+      skills: [
+        "Cyber due diligence",
+        "Security assurance",
+        "Risk qualification",
+        "Evidence evaluation",
+        "Executive summaries",
+      ],
       overview:
-        "A fictional vendor or transaction assessment structure covering security evidence, operational resilience, data protection, and remediation without disclosing real findings.",
+        "A fictional vendor or transaction-assessment structure covering security evidence, technical exposure, architecture, identity, operational resilience, testing, data protection, and remediation without disclosing real findings.",
       challenge:
-        "Evidence may be incomplete, scoped differently, or insufficient to answer questions about architecture, access, resilience, or data handling.",
-      why: "A well-qualified decision helps leaders understand what is known, what remains uncertain, and what conditions should be met.",
+        "Available evidence may be incomplete, outdated, differently scoped, or insufficient to answer questions about architecture, vulnerabilities, access, resilience, testing, subcontractors, or data handling.",
+      why:
+        "A well-qualified decision helps leadership distinguish what is known, what remains uncertain, what is material, and what conditions should be satisfied.",
       approach: [
-        "Review attack surface, vulnerabilities, architecture, identity and access, and incident response.",
-        "Assess business continuity, disaster recovery, recovery-time and recovery-point objectives.",
-        "Review penetration-testing summaries, SOC reporting, subprocessors, data protection, and contract safeguards.",
-        "Document evidence gaps, remediation, and decision qualifications.",
+        "Review external exposure, identified vulnerabilities, architecture, and system dependencies.",
+        "Evaluate identity, privileged access, authentication, and access governance.",
+        "Assess incident response, business continuity, disaster recovery, and resilience targets.",
+        "Review penetration-testing summaries, SOC reporting, certifications, and stated limitations.",
+        "Evaluate subprocessors, data protection, retention, deletion, and contractual safeguards.",
+        "Document evidence gaps, remediation, ownership, and decision qualifications.",
+        "Reassess material issues after updated evidence or remediation.",
       ],
       solution:
-        "Developed a sanitized assessment outline that distinguishes evidence-backed observations from assumptions and open questions.",
+        "Developed a sanitized assessment structure that distinguishes evidence-backed observations from assumptions, open questions, limitations, and decision conditions.",
       controls: [
         "Use fictional organizations and sanitized descriptions only.",
-        "Record evidence scope, date, limitations, and source.",
+        "Record evidence source, scope, date, limitations, and relevance.",
+        "Separate confirmed observations from assumptions and unresolved questions.",
         "Consider approval, approval with qualifications, additional evidence, escalation, or material risk.",
-        "Track remediation conditions and decision ownership.",
+        "Track remediation conditions, ownership, due dates, and reassessment.",
+        "Retain the decision rationale and supporting evidence.",
       ],
       decisionOptions: [
         "Approval",
         "Approval with qualifications",
         "Additional evidence required",
+        "Remediation required",
         "Escalation required",
         "Material risk identified",
       ],
-      lessons: "A defensible due-diligence summary makes uncertainty visible and links every condition to an owner, evidence need, or decision.",
+      lessons:
+        "A defensible due-diligence summary makes uncertainty visible and connects every material condition to evidence, ownership, remediation, reassessment, or an accountable decision.",
     },
   ],
+
   experience: [
     {
       organization: "Large North American Enterprise",
       title: "Senior Cyber Risk Analyst",
       location: "Charlotte, North Carolina",
-      dates: "Current",
+      dates: "July 2024 – Present",
       bullets: [
-        "Conducted or supported more than 200 vendor security-questionnaire assessments.",
-        "Reviewed SOC 2 reports, ISO 27001 certifications, penetration-test summaries, data flows, and security evidence.",
-        "Supported cyber due diligence and translated findings into approval conditions and follow-up requirements.",
-        "Created dashboards, process flows, runbooks, evidence templates, and governance documentation.",
-        "Supported Onspring workflows, dashboards, access governance, surveys, applications, and reporting.",
-        "Contributed to AI and automation use cases for evidence collection, control mapping, document validation, and risk workflows.",
-        "Developed reporting concepts connecting risk position, trends, tolerance, evidence, and decisions.",
-        "Supported phishing simulations, platform evaluations, campaign reporting, and security-awareness operations.",
-      ],
-    },
-    {
-      organization: "Yafo Kitchen",
-      title: "Executive Chef",
-      location: "",
-      dates: "June 2020 – September 2023",
-      bullets: [
-        "Led high-volume operations and frontline teams.",
-        "Maintained quality and operational controls under pressure.",
-        "Coordinated priorities and resolved operational issues.",
-        "Supported an operation generating more than $3 million annually.",
-        "Earned advancement through reliable execution and team leadership.",
+        "Established structured governance practices for managing cyber risk, platform demand, automation opportunities, control information, third-party oversight, and audit evidence.",
+
+        "Created a centralized intake model that replaced fragmented request handling with a governed portfolio capturing business need, ownership, priority, dependencies, effort, risk considerations, testing requirements, delivery status, and expected value.",
+
+        "Designed responsible automation solutions using AI-assisted analysis, Power Automate, Excel Office Scripts, and human validation to improve control mapping, document processing, output standardization, and evidence traceability.",
+
+        "Developed a human-validated approach for extracting and mapping control responsibilities from SOC reports while preserving source information, rationale, review status, and reviewer accountability.",
+
+        "Expanded internal GRC platform capability across applications, repositories, workflows, access, licensing, security roles, surveys, fields, formulas, notifications, dashboards, reports, testing, troubleshooting, and production enhancements.",
+
+        "Translated governance and operational requirements into platform solutions that improved decision workflows, reporting visibility, service-level tracking, security content management, maturity reporting, approval processes, and access administration.",
+
+        "Supported audit and compliance activities through evidence collection, artifact validation, access reviews, readiness assessments, control support, standardized evidence inventories, and review-ready reporting.",
+
+        "Applied AI-assisted analysis and manual validation to framework mapping, control normalization, maturity reporting, and identification of full coverage, partial coverage, and governance gaps.",
+
+        "Supported third-party risk assessments through vendor-response review, evidence validation, gap identification, follow-up questions, stakeholder coordination, risk qualification, and remediation tracking.",
+
+        "Contributed to the design of a broader third-party risk operating model encompassing governance, intake, risk scoring, evidence management, continuous monitoring, remediation, escalation, contractual safeguards, fourth-party risk, and offboarding.",
+
+        "Supported cyber due diligence through external exposure review, findings analysis, remediation follow-up, reassessment, evidence evaluation, and leadership reporting.",
+
+        "Created dashboards, governance documentation, analyst runbooks, process maps, decision structures, evidence templates, and reporting concepts that connect technical information to accountable business action.",
+
+        "Served as a cross-functional resource across cyber risk, compliance, audit, vendor oversight, legal, and transaction stakeholders by translating complex requirements into practical and defensible solutions.",
+
+        "Improved workload visibility and operational accountability through structured request logging, clearer status communication, repeatable review processes, and documented ownership.",
       ],
     },
   ],
+
   leadershipNote:
-    "Operational leadership taught me to prioritize, communicate clearly, maintain standards under pressure, and turn complex work into repeatable processes.",
+    "My leadership approach is grounded in clarity, evidence, ownership, and sustainable delivery. I work to understand the business problem before selecting the solution, define how decisions will be governed, preserve the information needed to validate the outcome, and build processes that can continue beyond the original implementation. I believe strong governance should enable responsible action, not prevent it.",
+
   education: [
-    {
-      institution: "Western Governors University",
-      program: "Bachelor of Science studies in Cybersecurity and Information Assurance",
-      status: "In progress",
-    },
-    {
-      institution: "Year Up and Central Piedmont Community College",
-      program: "Cybersecurity Training",
-      status: "",
-    },
-  ],
+  {
+    institution: "Western Governors University",
+    program:
+      "Bachelor of Science in Cybersecurity and Information Assurance",
+    status: "In progress",
+    description:
+      "Degree program covering cybersecurity operations, networking, cloud security, vulnerability assessment, penetration testing, security analytics, governance, risk management, and IT service management. The program includes preparation for multiple industry certifications.",
+  },
+  {
+    institution: "Year Up and Central Piedmont Community College",
+    program: "Cybersecurity Training",
+    status: "Completed",
+    description:
+      "Career-focused cybersecurity and technical training covering security fundamentals, networking, professional development, and workplace readiness.",
+  },
+],
+
   certifications: [
-    "Professional Scrum Master I",
-    "Google Cybersecurity",
-    "IBM Generative AI for Cybersecurity Professionals",
-    "Cisco Cyber Threat Management",
-    "Cloud Security Fundamentals",
-    "Diploma in Computer Networking",
-    "Network Pro",
-    "PC Pro",
-    "Security Pro",
-    "Office Pro",
-    "Microsoft and LinkedIn Career Essentials training",
-  ].map((name) => ({ name, status: "" })), // Set status to "Certified", "Completed", or "In progress" to show a label.
-  certificationStatuses: ["Certified", "Completed", "In progress", "Planned"],
+  {
+    name: "Professional Scrum Master I",
+    shortName: "PSM I",
+    issuer: "Scrum.org",
+    status: "Certified",
+    category: "Professional Certification",
+    note: "",
+  },
+  {
+    name: "CompTIA A+",
+    shortName: "A+",
+    issuer: "CompTIA",
+    status: "Planned",
+    category: "Core IT",
+    note: "Included in the Western Governors University degree pathway.",
+  },
+  {
+    name: "CompTIA Data+",
+    shortName: "Data+",
+    issuer: "CompTIA",
+    status: "Planned",
+    category: "Data and Analytics",
+    note: "Included in the Western Governors University degree pathway.",
+  },
+  {
+    name: "CompTIA Network+",
+    shortName: "Network+",
+    issuer: "CompTIA",
+    status: "Planned",
+    category: "Networking",
+    note: "Included in the Western Governors University degree pathway.",
+  },
+  {
+    name: "CompTIA Security+",
+    shortName: "Security+",
+    issuer: "CompTIA",
+    status: "Planned",
+    category: "Cybersecurity",
+    note: "Included in the Western Governors University degree pathway.",
+  },
+  {
+    name: "CompTIA Project+",
+    shortName: "Project+",
+    issuer: "CompTIA",
+    status: "Planned",
+    category: "Project Management",
+    note: "Included in the Western Governors University degree pathway.",
+  },
+  {
+    name: "CompTIA Cybersecurity Analyst",
+    shortName: "CySA+",
+    issuer: "CompTIA",
+    status: "Planned",
+    category: "Cybersecurity",
+    note: "Included in the Western Governors University degree pathway.",
+  },
+  {
+    name: "CompTIA PenTest+",
+    shortName: "PenTest+",
+    issuer: "CompTIA",
+    status: "Planned",
+    category: "Cybersecurity",
+    note: "Included in the Western Governors University degree pathway.",
+  },
+  {
+    name: "CompTIA Network Vulnerability Assessment Professional",
+    shortName: "CNVP",
+    issuer: "CompTIA",
+    status: "Planned",
+    category: "CompTIA Stackable Certification",
+    note:
+      "Stackable certification awarded after completing the required eligible CompTIA certifications.",
+  },
+  {
+    name: "CompTIA Network Security Professional",
+    shortName: "CNSP",
+    issuer: "CompTIA",
+    status: "Planned",
+    category: "CompTIA Stackable Certification",
+    note:
+      "Stackable certification awarded after completing the required eligible CompTIA certifications.",
+  },
+  {
+    name: "CompTIA Security Analytics Professional",
+    shortName: "CSAP",
+    issuer: "CompTIA",
+    status: "Planned",
+    category: "CompTIA Stackable Certification",
+    note:
+      "Stackable certification awarded after completing the required eligible CompTIA certifications.",
+  },
+  {
+    name: "CompTIA IT Operations Specialist",
+    shortName: "CIOS",
+    issuer: "CompTIA",
+    status: "Planned",
+    category: "CompTIA Stackable Certification",
+    note:
+      "Stackable certification awarded after completing the required eligible CompTIA certifications.",
+  },
+  {
+    name: "CompTIA Secure Infrastructure Specialist",
+    shortName: "CSIS",
+    issuer: "CompTIA",
+    status: "Planned",
+    category: "CompTIA Stackable Certification",
+    note:
+      "Stackable certification awarded after completing the required eligible CompTIA certifications.",
+  },
+  {
+    name: "ITIL 4 Foundation",
+    shortName: "ITIL 4 Foundation",
+    issuer: "PeopleCert",
+    status: "Planned",
+    category: "IT Service Management",
+    note:
+      "Certification availability is subject to the degree program and certification provider.",
+  },
+  {
+    name: "Linux Essentials",
+    shortName: "Linux Essentials",
+    issuer: "Linux Professional Institute",
+    status: "Planned",
+    category: "Operating Systems",
+    note: "Included in the Western Governors University degree pathway.",
+  },
+  {
+    name: "Systems Security Certified Practitioner",
+    shortName: "SSCP",
+    issuer: "ISC2",
+    status: "Optional",
+    category: "Cybersecurity",
+    note:
+      "Optional certification voucher; certification is not represented as earned.",
+  },
+  {
+    name: "Certified Cloud Security Professional",
+    shortName: "CCSP",
+    issuer: "ISC2",
+    status: "Optional",
+    category: "Cloud Security",
+    note:
+      "Optional certification voucher; certification is not represented as earned.",
+  },
+],
+
+certificationStatuses: [
+  "Certified",
+  "Completed",
+  "In progress",
+  "Planned",
+  "Optional",
+],
+
   simulations: [
     "JPMorgan Chase Cybersecurity Job Simulation",
     "JPMorgan Chase Software Engineering Virtual Experience",
@@ -530,45 +1017,104 @@ export const portfolio = {
     "Goldman Sachs Software Engineering Job Simulation",
     "Bloomberg Client Service Job Simulation",
   ],
+
   skills: [
     {
       title: "Cyber Risk and Governance",
-      items: "Cyber risk, technology risk, third-party risk, cyber due diligence, risk acceptance, exceptions, monitoring, and security assurance.",
+      items:
+        "Cyber risk governance, technology risk, third-party risk management, cyber due diligence, risk acceptance, risk exceptions, remediation, continuous monitoring, security assurance, and decision traceability.",
     },
     {
-      title: "Frameworks",
-      items: "NIST Cybersecurity Framework, NIST Phish Scale, SOC 2, ISO 27001, PCI DSS, GDPR, and internal controls.",
+      title: "Frameworks and Standards",
+      items:
+        "NIST Cybersecurity Framework 2.0, NIST Phish Scale, SOC 2, ISO 27001, PCI DSS, GDPR, internal control frameworks, audit requirements, and evidence expectations.",
     },
     {
-      title: "Platforms",
-      items: "Onspring, Black Kite, Rapid7, InsightVM, and Qualys.",
+      title: "GRC Platforms",
+      items:
+        "Onspring administration, applications, repositories, workflows, access, licensing, roles, surveys, fields, formulas, notifications, dashboards, reports, testing, and production support.",
     },
     {
-      title: "Analytics",
-      items: "Power BI, DAX, Power Query, Excel, executive dashboards, data models, scenarios, and visualization.",
+      title: "Security and Risk Platforms",
+      items:
+        "Black Kite, Rapid7, InsightVM, Qualys, external exposure review, vulnerability analysis, continuous monitoring, and evidence validation.",
     },
     {
-      title: "Automation",
-      items: "Power Automate, Microsoft Forms, Office Scripts, Microsoft Copilot, AI-assisted mapping, workflows, and user acceptance testing.",
+      title: "Analytics and Reporting",
+      items:
+        "Power BI, DAX, Power Query, Excel, semantic data models, executive dashboards, risk metrics, scenario analysis, maturity reporting, trends, and data visualization.",
     },
     {
-      title: "Documentation",
-      items: "SharePoint, Word, PowerPoint, process maps, runbooks, SOPs, standards, evidence templates, and executive summaries.",
+      title: "Automation and Responsible AI",
+      items:
+        "Power Automate, Microsoft Forms, Office Scripts, Microsoft Copilot, AI-assisted control mapping, document processing, workflow automation, human validation, governance checkpoints, and user acceptance testing.",
+    },
+    {
+      title: "Audit and Evidence",
+      items:
+        "Evidence collection, artifact validation, control mapping, access reviews, readiness assessments, standardized inventories, evidence templates, and audit-ready documentation.",
+    },
+    {
+      title: "Documentation and Process Design",
+      items:
+        "SharePoint, Microsoft Word, PowerPoint, process maps, operating models, runbooks, standard operating procedures, standards, service expectations, RACI models, and executive summaries.",
     },
     {
       title: "Technical Foundations",
-      items: "HTML, JavaScript, SQL fundamentals, Azure, AWS, Google Cloud, networking, and vulnerability management.",
+      items:
+        "HTML, JavaScript, SQL fundamentals, Microsoft Azure, AWS, Google Cloud, network security, identity, vulnerability management, architecture review, and data-flow analysis.",
     },
     {
-      title: "Leadership",
-      items: "Stakeholder communication, executive communication, requirements gathering, process improvement, quality assurance, coordination, and team leadership.",
+      title: "Leadership and Delivery",
+      items:
+        "Stakeholder communication, executive communication, requirements gathering, cross-functional coordination, process improvement, quality assurance, prioritization, ownership, decision support, and knowledge transfer.",
     },
   ],
+
+  developmentPriorities: [
+    {
+      title: "Outcome Measurement",
+      description:
+        "Define baselines and success measures before implementation, then measure cycle-time reduction, manual effort removed, rework avoided, response time, information quality, adoption, and realized operational value.",
+    },
+    {
+      title: "Business Value Communication",
+      description:
+        "Express the value of automation, platform enablement, reporting, and governance improvements through measurable business outcomes rather than activity volume alone.",
+    },
+    {
+      title: "Program-Level Visibility",
+      description:
+        "Provide concise updates that explain the business problem, governance impact, current status, evidence, risks, decisions required, accountable owners, and next actions.",
+    },
+    {
+      title: "Knowledge Transfer",
+      description:
+        "Build procedures, runbooks, user guidance, operating standards, and training materials that allow solutions to be operated and expanded by the broader team.",
+    },
+    {
+      title: "Scalable Governance",
+      description:
+        "Continue evolving governance practices so increased demand can be managed through consistent intake, prioritization, validation, automation, measurement, and reporting.",
+    },
+  ],
+
   resumeSummary:
-    "Senior Cyber Risk Analyst connecting third-party risk, GRC platform operations, security assurance, analytics, audit readiness, and responsible automation. Experienced in translating complex control and security information into clear, evidence-led actions for stakeholders and leaders.",
+    "Senior Cyber Risk Analyst with experience across cyber risk governance, third-party risk management, GRC platform administration, cyber due diligence, audit and compliance readiness, control mapping, risk analytics, executive reporting, and responsible automation. Builds structured operating models that connect governance requirements, platform workflows, evidence, ownership, human validation, and decision-ready reporting. Experienced in translating fragmented demand and complex technical information into scalable, traceable, and defensible business processes.",
+
   confidentiality:
     "This case study is a sanitized reconstruction using synthetic information. It demonstrates the methodology, governance approach, and design without disclosing confidential organizational or third-party information.",
+
   contact:
-    "I am interested in conversations about cyber risk, technology governance, third-party risk, responsible automation, GRC platforms, and risk analytics.",
-  projectFilters: ["All", "Cyber Risk", "Third-Party Risk", "Automation", "Analytics", "GRC", "Audit and Compliance"],
+    "Connect with me on LinkedIn to discuss cyber risk governance, third-party risk management, GRC platform enablement, audit readiness, risk intelligence, responsible AI, governance automation, and technology risk transformation.",
+
+  projectFilters: [
+    "All",
+    "Cyber Risk",
+    "Third-Party Risk",
+    "Automation",
+    "Analytics",
+    "GRC",
+    "Audit and Compliance",
+  ],
 };
