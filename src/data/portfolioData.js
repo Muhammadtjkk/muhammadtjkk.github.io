@@ -521,7 +521,7 @@ export const portfolio = {
     "Security Pro",
     "Office Pro",
     "Microsoft and LinkedIn Career Essentials training",
-  ].map((name) => ({ name, status: "Confirm status" })),
+  ].map((name) => ({ name, status: "" })), // Set status to "Certified", "Completed", or "In progress" to show a label.
   certificationStatuses: ["Certified", "Completed", "In progress", "Planned"],
   simulations: [
     "JPMorgan Chase Cybersecurity Job Simulation",

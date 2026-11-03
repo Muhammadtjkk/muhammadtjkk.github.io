@@ -61,7 +61,7 @@ In the repository’s **Settings → Pages**, select **GitHub Actions** as the b
 
 ## Updating portfolio content
 
-Edit `src/data/portfolioData.js` for professional details, project summaries and case studies, experience, credentials, skills, social links, and contact copy. Shared UI is in `src/components/`, and page-level layouts are in `src/pages/`.
+Edit `src/data/portfolioData.js` for professional details, project summaries and case studies, experience, credentials, skills, social links, and contact copy. Edit `src/data/extendedContent.js` for the "How I work" lifecycle, NIST CSF 2.0 mapping, assurance evidence, third-party risk lifecycle and tiers, career bridge, perspectives, credential issuers, and section icons. To show a credential status badge, set its `status` (for example "Certified" or "In progress") in `portfolioData.js`. Shared UI is in `src/components/`, and page-level layouts are in `src/pages/`.
 
 The employer is generalized as “Large North American Enterprise” by default. Change `showApprovedEmployer` to `true` only after public use of the Compass Group North America name is approved. Add a professional email only after confirming the address is approved for publication. Review all metrics before release; estimates must not be presented as audited savings or guarantees.
 
@@ -77,7 +77,7 @@ Vite copies public files to the production site. The resume controls check wheth
 
 ## Replacing or adding images
 
-The current hero is a CSS illustration and uses no stock imagery. If approved images are added, place optimized local assets under `public/images/`, use descriptive alternative text for informative images (and empty alt text for decorative images), and avoid internal screenshots or identifiable customer/vendor information.
+The hero is an animated, illustrative risk dashboard (`src/components/HeroDashboard.jsx`) built from CSS and SVG with synthetic data; it uses no stock imagery. Icons are inline SVGs in `src/components/Icon.jsx`. If approved images are added, place optimized local assets under `public/images/`, use descriptive alternative text for informative images (and empty alt text for decorative images), and avoid internal screenshots or identifiable customer/vendor information.
 
 ## Changing colors
 

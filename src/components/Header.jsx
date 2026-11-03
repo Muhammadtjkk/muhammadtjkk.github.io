@@ -1,13 +1,14 @@
 import { useEffect, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
+import Icon from "./Icon.jsx";
 
 const navigation = [
   ["About", "about"],
-  ["Expertise", "expertise"],
+  ["Approach", "approach"],
+  ["Frameworks", "frameworks"],
   ["Projects", "projects"],
   ["Experience", "experience"],
-  ["Education", "education"],
-  ["Resume", "resume"],
+  ["Credentials", "education"],
   ["Contact", "contact"],
 ];
 
@@ -15,6 +16,7 @@ export default function Header({ theme, onThemeToggle }) {
   const [menuOpen, setMenuOpen] = useState(false);
   const [activeSection, setActiveSection] = useState("home");
   const [showTop, setShowTop] = useState(false);
+  const [progress, setProgress] = useState(0);
   const location = useLocation();
   const navigate = useNavigate();
 
@@ -41,7 +43,11 @@ export default function Header({ theme, onThemeToggle }) {
   }, [location.pathname]);
 
   useEffect(() => {
-    const updateVisibility = () => setShowTop(window.scrollY > 500);
+    const updateVisibility = () => {
+      setShowTop(window.scrollY > 500);
+      const max = document.documentElement.scrollHeight - window.innerHeight;
+      setProgress(max > 0 ? Math.min(window.scrollY / max, 1) : 0);
+    };
     updateVisibility();
     window.addEventListener("scroll", updateVisibility, { passive: true });
     return () => window.removeEventListener("scroll", updateVisibility);
@@ -60,9 +66,10 @@ export default function Header({ theme, onThemeToggle }) {
   return (
     <>
       <header className="site-header">
+        <span className="scroll-progress" style={{ transform: `scaleX(${progress})` }} aria-hidden="true" />
         <div className="container header-inner">
           <button className="brand" type="button" onClick={() => visitSection("home")} aria-label="Muhammad Tajak, home">
-            <span className="brand-mark" aria-hidden="true">MT</span>
+            <span className="brand-mark" aria-hidden="true"><Icon name="shield" size={26} strokeWidth={1.6} /><b>MT</b></span>
             <span className="brand-copy">
               <strong>Muhammad Tajak</strong>
               <small>Cyber Risk &amp; Governance</small>
@@ -100,13 +107,13 @@ export default function Header({ theme, onThemeToggle }) {
               aria-label={`Switch to ${theme === "light" ? "dark" : "light"} theme`}
               title={`Switch to ${theme === "light" ? "dark" : "light"} theme`}
             >
-              <span aria-hidden="true">{theme === "light" ? "◐" : "☼"}</span>
+              <Icon name={theme === "light" ? "moon" : "sun"} size={16} />
               <span className="theme-label">{theme === "light" ? "Dark" : "Light"}</span>
             </button>
           </nav>
           <div className="header-actions">
-            <button className="button button-small button-outline" type="button" onClick={() => visitSection("projects")}>View Projects</button>
-            <button className="button button-small button-primary" type="button" onClick={() => visitSection("resume")}>Resume</button>
+            <button className="button button-small button-outline" type="button" onClick={() => visitSection("projects")}>Case Studies</button>
+            <button className="button button-small button-primary" type="button" onClick={() => visitSection("contact")}>Let’s talk</button>
           </div>
         </div>
       </header>
