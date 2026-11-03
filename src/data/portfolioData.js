@@ -838,72 +838,177 @@ export const portfolio = {
     "My leadership approach is grounded in clarity, evidence, ownership, and sustainable delivery. I work to understand the business problem before selecting the solution, define how decisions will be governed, preserve the information needed to validate the outcome, and build processes that can continue beyond the original implementation. I believe strong governance should enable responsible action, not prevent it.",
 
   education: [
-    {
-      institution: "Western Governors University",
-      program:
-        "Bachelor of Science studies in Cybersecurity and Information Assurance",
-      status: "In progress",
-    },
-    {
-      institution: "Year Up and Central Piedmont Community College",
-      program: "Cybersecurity Training",
-      status: "Completed",
-    },
-  ],
+  {
+    institution: "Western Governors University",
+    program:
+      "Bachelor of Science in Cybersecurity and Information Assurance",
+    status: "In progress",
+    description:
+      "Degree program covering cybersecurity operations, networking, cloud security, vulnerability assessment, penetration testing, security analytics, governance, risk management, and IT service management. The program includes preparation for multiple industry certifications.",
+  },
+  {
+    institution: "Year Up and Central Piedmont Community College",
+    program: "Cybersecurity Training",
+    status: "Completed",
+    description:
+      "Career-focused cybersecurity and technical training covering security fundamentals, networking, professional development, and workplace readiness.",
+  },
+],
 
   certifications: [
-    {
-      name: "Professional Scrum Master I",
-      status: "Certified",
-    },
-    {
-      name: "Google Cybersecurity",
-      status: "Completed",
-    },
-    {
-      name: "IBM Generative AI for Cybersecurity Professionals",
-      status: "Completed",
-    },
-    {
-      name: "Cisco Cyber Threat Management",
-      status: "Completed",
-    },
-    {
-      name: "Cloud Security Fundamentals",
-      status: "Completed",
-    },
-    {
-      name: "Diploma in Computer Networking",
-      status: "Completed",
-    },
-    {
-      name: "Network Pro",
-      status: "Completed",
-    },
-    {
-      name: "PC Pro",
-      status: "Completed",
-    },
-    {
-      name: "Security Pro",
-      status: "Completed",
-    },
-    {
-      name: "Office Pro",
-      status: "Completed",
-    },
-    {
-      name: "Microsoft and LinkedIn Career Essentials Training",
-      status: "Completed",
-    },
-  ],
+  {
+    name: "Professional Scrum Master I",
+    shortName: "PSM I",
+    issuer: "Scrum.org",
+    status: "Certified",
+    category: "Professional Certification",
+    note: "",
+  },
+  {
+    name: "CompTIA A+",
+    shortName: "A+",
+    issuer: "CompTIA",
+    status: "Planned",
+    category: "Core IT",
+    note: "Included in the Western Governors University degree pathway.",
+  },
+  {
+    name: "CompTIA Data+",
+    shortName: "Data+",
+    issuer: "CompTIA",
+    status: "Planned",
+    category: "Data and Analytics",
+    note: "Included in the Western Governors University degree pathway.",
+  },
+  {
+    name: "CompTIA Network+",
+    shortName: "Network+",
+    issuer: "CompTIA",
+    status: "Planned",
+    category: "Networking",
+    note: "Included in the Western Governors University degree pathway.",
+  },
+  {
+    name: "CompTIA Security+",
+    shortName: "Security+",
+    issuer: "CompTIA",
+    status: "Planned",
+    category: "Cybersecurity",
+    note: "Included in the Western Governors University degree pathway.",
+  },
+  {
+    name: "CompTIA Project+",
+    shortName: "Project+",
+    issuer: "CompTIA",
+    status: "Planned",
+    category: "Project Management",
+    note: "Included in the Western Governors University degree pathway.",
+  },
+  {
+    name: "CompTIA Cybersecurity Analyst",
+    shortName: "CySA+",
+    issuer: "CompTIA",
+    status: "Planned",
+    category: "Cybersecurity",
+    note: "Included in the Western Governors University degree pathway.",
+  },
+  {
+    name: "CompTIA PenTest+",
+    shortName: "PenTest+",
+    issuer: "CompTIA",
+    status: "Planned",
+    category: "Cybersecurity",
+    note: "Included in the Western Governors University degree pathway.",
+  },
+  {
+    name: "CompTIA Network Vulnerability Assessment Professional",
+    shortName: "CNVP",
+    issuer: "CompTIA",
+    status: "Planned",
+    category: "CompTIA Stackable Certification",
+    note:
+      "Stackable certification awarded after completing the required eligible CompTIA certifications.",
+  },
+  {
+    name: "CompTIA Network Security Professional",
+    shortName: "CNSP",
+    issuer: "CompTIA",
+    status: "Planned",
+    category: "CompTIA Stackable Certification",
+    note:
+      "Stackable certification awarded after completing the required eligible CompTIA certifications.",
+  },
+  {
+    name: "CompTIA Security Analytics Professional",
+    shortName: "CSAP",
+    issuer: "CompTIA",
+    status: "Planned",
+    category: "CompTIA Stackable Certification",
+    note:
+      "Stackable certification awarded after completing the required eligible CompTIA certifications.",
+  },
+  {
+    name: "CompTIA IT Operations Specialist",
+    shortName: "CIOS",
+    issuer: "CompTIA",
+    status: "Planned",
+    category: "CompTIA Stackable Certification",
+    note:
+      "Stackable certification awarded after completing the required eligible CompTIA certifications.",
+  },
+  {
+    name: "CompTIA Secure Infrastructure Specialist",
+    shortName: "CSIS",
+    issuer: "CompTIA",
+    status: "Planned",
+    category: "CompTIA Stackable Certification",
+    note:
+      "Stackable certification awarded after completing the required eligible CompTIA certifications.",
+  },
+  {
+    name: "ITIL 4 Foundation",
+    shortName: "ITIL 4 Foundation",
+    issuer: "PeopleCert",
+    status: "Planned",
+    category: "IT Service Management",
+    note:
+      "Certification availability is subject to the degree program and certification provider.",
+  },
+  {
+    name: "Linux Essentials",
+    shortName: "Linux Essentials",
+    issuer: "Linux Professional Institute",
+    status: "Planned",
+    category: "Operating Systems",
+    note: "Included in the Western Governors University degree pathway.",
+  },
+  {
+    name: "Systems Security Certified Practitioner",
+    shortName: "SSCP",
+    issuer: "ISC2",
+    status: "Optional",
+    category: "Cybersecurity",
+    note:
+      "Optional certification voucher; certification is not represented as earned.",
+  },
+  {
+    name: "Certified Cloud Security Professional",
+    shortName: "CCSP",
+    issuer: "ISC2",
+    status: "Optional",
+    category: "Cloud Security",
+    note:
+      "Optional certification voucher; certification is not represented as earned.",
+  },
+],
 
-  certificationStatuses: [
-    "Certified",
-    "Completed",
-    "In progress",
-    "Planned",
-  ],
+certificationStatuses: [
+  "Certified",
+  "Completed",
+  "In progress",
+  "Planned",
+  "Optional",
+],
 
   simulations: [
     "JPMorgan Chase Cybersecurity Job Simulation",
