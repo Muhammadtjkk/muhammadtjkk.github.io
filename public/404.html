@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0A2D4D" />
+    <title>Page not found | Muhammad Tajak</title>
+    <style>
+      body { margin: 0; min-height: 100vh; display: grid; place-items: center; padding: 1.5rem; box-sizing: border-box; background: #f7f9fc; color: #172b3a; font: 16px/1.6 Inter, "Segoe UI", Arial, sans-serif; }
+      main { max-width: 34rem; padding: 2rem; background: #fff; border: 1px solid #d8e2ea; border-radius: 1rem; }
+      h1 { color: #0a2d4d; line-height: 1.2; }
+      a { color: #1f6fe0; font-weight: 700; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <p>404 · Page not found</p>
+      <h1>This page is not part of the portfolio.</h1>
+      <p>The address may be incorrect or the page may have moved.</p>
+      <a href="/">Return to Muhammad Tajak’s portfolio</a>
+    </main>
+    <script>
+      const requestedPath = window.location.pathname + window.location.search + window.location.hash;
+      window.location.replace("/?redirect=" + encodeURIComponent(requestedPath));
+    </script>
+  </body>
+</html>
